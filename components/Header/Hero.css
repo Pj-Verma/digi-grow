@@ -1,0 +1,60 @@
+.bg-image{
+    background-image:url('https://t3.ftcdn.net/jpg/04/34/10/08/360_F_434100803_wCDBPHkVXP9gIDizFYtQSLPillD9AAmw.jpg');
+   
+     height: 580px;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.mask{
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    width: 500px;
+    display: flex;
+}
+.text-white h2{
+    color: #0feca3;
+}
+@media only screen and (max-width: 480px) {
+    .bg-image {
+        height: 380px;
+    }
+  }
+@media only screen and (max-width: 480px) {
+    .text-white h2 {
+        font-size: 12px;
+    }
+  }
+@media only screen and (max-width: 480px) {
+    .mask {
+        width: 300px;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .bg-image {
+        height: 420px;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .text-white h2 {
+        font-size: 15px;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .mask {
+        width: 400px;
+    }
+  }
+@media only screen and (max-width: 300px) {
+    .bg-image {
+        height: 200px;
+    }
+  }
+@media only screen and (max-width: 300px) {
+    .text-white h2 {
+        font-size: 8px;
+    }
+  }
+@media only screen and (max-width: 300px) {
+    .mask {
+        width: 1500px;
+    }
+  }

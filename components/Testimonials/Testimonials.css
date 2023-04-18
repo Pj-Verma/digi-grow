@@ -1,0 +1,74 @@
+
+.testimonials-block {
+    background-attachment: fixed;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU4GEvst4wjUuSNXaDJY85ciR5s-wZ5qOeow&usqp=CAU);
+    background-position: 50% 0;
+    background-size: cover;
+    color: #fff;
+    padding: 90px 0 70px;
+    position: relative;
+}
+.testimonials-block .container-fluid {
+    margin: 0 auto;
+    max-width: 900px;
+    position: relative;
+    z-index: 1;
+}
+.container-fluid {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.title-holder {
+    margin: 0 0 40px;
+    text-align: center;
+}
+.title-holder h2 {
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+.testimonials-block .subtitle {
+    color: #ccc;
+}
+carousel {
+    position: relative;
+}
+.carousel-indicators {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    list-style: none;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+.carousel-item {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: none;
+    float: left;
+    margin-right: -100%;
+    position: relative;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+    width: 100%;
+}
+.testimonials-block blockquote {
+    border: 0;
+    margin: 0;
+    padding: 0 0 10%;
+    text-align: center;
+}
+p {
+    margin: 0 0 15px;
+}
+.testimonials-block cite {
+    display: block;
+    font-style: normal;
+    padding: 15px 0 0;
+}

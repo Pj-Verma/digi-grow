@@ -1,0 +1,20 @@
+
+
+.header-content{
+    font-size: 12px;
+    height: 54px;
+    background-color: rgb(93, 174, 77);
+    z-index: 100;
+    line-height: 54px;
+    margin-bottom: 1px;
+}
+    .right{
+        float: right;
+       display: inline-block;
+       padding: 0px 20px;
+    }
+
+  .left{
+    display: inline-block;
+    cursor: pointer;
+  }
